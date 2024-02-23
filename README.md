@@ -3,3 +3,6 @@
 `cmake -B build`
 ## Build
 `cmake --build build`
+## Build with Docker
+`docker build -t builder .`
+`docker run --rm -it -v .:/tutorial builder`
